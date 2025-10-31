@@ -44,20 +44,14 @@ The user selects one of two methods:
 
 #### 1️⃣ Normal Equation
 Uses the closed-form solution:
-\[
-\theta = (X^T X)^{-1} X^T y
-\]
+`θ = (X^T * X)^(-1) * X^T * y` 
 This directly computes the optimal weights analytically.
 
 #### 2️⃣ Gradient Descent
 Uses an iterative approach to minimize the cost function:
-\[
-J(\theta) = \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x_i) - y_i)^2
-\]
+`J(θ) = (1/m) * Σ(h_θ(xᵢ) - yᵢ)²`
 It updates weights according to:
-\[
-\theta_j := \theta_j - \alpha \frac{\partial J(\theta)}{\partial \theta_j}
-\]
+`θⱼ := θⱼ - α * (∂J(θ) / ∂θⱼ)`
 where `α` is the learning rate.
 
 ---
