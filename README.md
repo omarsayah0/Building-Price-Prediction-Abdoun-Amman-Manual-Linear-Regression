@@ -70,17 +70,11 @@ where `α` is the learning rate.
    ```bash
    python Multiple_Manual_Linear-Regression.py
 
-4. Provide User Inputst , The script will ask you for:
-   ```bash
-   Add the size of the building in m^2:
-   Add the age of the building:
-   Add how many rooms in the building:
-
-5. Run the multiple linear regression:
+4. Run the multiple linear regression:
    ```bash
    python Multiple_Manual_Linear-Regression.py
 
-6. Example Output:
+5. Example Output:
    
 - Simple Linear Regression:
    ```bash
