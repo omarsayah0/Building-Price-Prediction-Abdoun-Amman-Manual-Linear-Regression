@@ -30,9 +30,8 @@ These models predict the **price of a building located in Abdoun, Amman, Jordan*
 ### Simple Linear Regression
 The program:
 1. Calculates the regression coefficients **(b₀, b₁)** manually using:
-   \[
-   b_1 = \frac{\text{Cov}(x, y)}{\text{Var}(x)} \quad,\quad b_0 = \bar{y} - b_1 \bar{x}
-   \]
+  `b1 = Cov(x, y) / Var(x)`  
+`b0 = mean(y) - b1 * mean(x)`
 2. Predicts prices for new building areas.
 3. Evaluates performance using:
    - **Mean Squared Error (MSE)**
